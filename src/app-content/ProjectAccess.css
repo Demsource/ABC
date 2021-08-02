@@ -1,0 +1,133 @@
+.project-access {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.project-access .pa-content {
+  width: 80%;
+  box-sizing: border-box;
+}
+.project-access .pa-content .pa-header-wrapper {
+  padding-left: 10%;
+}
+
+.project-access .pa-content .pa-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #d8d8d8;
+  margin-top: 50px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+.project-access .pa-header .pah-col {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  opacity: 0.37;
+}
+#active-col {
+  opacity: 1;
+}
+.project-access .pa-header .col-actions {
+  opacity: 0.37;
+}
+
+.project-access .pa-header .pah-col span {
+  margin-right: 5px;
+}
+
+.project-access .arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.arrow-up {
+  border-bottom: 5px solid black;
+}
+.arrow-down {
+  border-top: 5px solid black;
+}
+
+.project-access .pa-header .col-user {
+  margin-right: 10%;
+}
+
+.pa-footer-wrapper {
+  margin-top: 20px;
+}
+
+.pa-footer {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+.pa-footer .left-content {
+  display: flex;
+}
+
+.pa-footer .left-content .page-record {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.pa-footer .left-content .page-record .page-record-number {
+  margin-right: 10px;
+}
+
+.pa-footer .left-content .page-record .page-records {
+  position: absolute;
+  top: 100%;
+  left: -4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pa-footer .left-content .page-record .page-records span {
+  text-align: center;
+  border: 1px solid #d8d8d8;
+  padding: 5px 0;
+}
+.pa-footer .left-content .page-record .page-records span:last-child {
+  margin-bottom: 50px;
+}
+
+.pa-footer .right-content {
+  display: flex;
+  align-items: center;
+}
+
+.pa-footer .right-content .prev-next {
+  cursor: pointer;
+}
+
+.pa-footer .right-content .page-numbers {
+  margin: 0 10px;
+  display: flex;
+}
+
+.pa-footer .right-content .page-numbers .page-number {
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+}
+.pa-footer .right-content .page-numbers .active-page-number {
+  background-color: #c6c6c6;
+  box-shadow: 0px 3px 6px 0.1px #00000029;
+}

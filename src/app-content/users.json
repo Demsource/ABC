@@ -1,0 +1,369 @@
+[
+  {
+    "id": 1,
+    "firstName": "Danniel",
+    "lastName": "Blichman",
+    "email": "danniel.blichman@testtask.com",
+    "isActive": true,
+    "role": "Admin",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": [
+          "permission11",
+          "permission12",
+          "permission14",
+          "permission15"
+        ]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "Margarette",
+    "lastName": "Jones",
+    "email": "margarette.jones@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 3,
+    "firstName": "Bethany",
+    "lastName": "Doe",
+    "email": "bethany.doe@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 4,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 100,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 101,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 102,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 103,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 104,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 105,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 106,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 107,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 108,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 109,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 110,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 111,
+    "firstName": "Samuel",
+    "lastName": "Jackson",
+    "email": "samuel.jackson@testtask.com",
+    "isActive": true,
+    "role": "User",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": ["permission11", "permission12"]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  },
+  {
+    "id": 5,
+    "firstName": "Persival",
+    "lastName": "Blinn",
+    "email": "persival.blinn@testtask.com",
+    "isActive": false,
+    "role": "Admin",
+    "permissions": {
+      "isSuperAdmin": false,
+      "groupOne": {
+        "gPermissonAll": false,
+        "permissionList": [
+          "permission11",
+          "permission12",
+          "permission14",
+          "permission15"
+        ]
+      },
+      "groupTwo": {
+        "gPermissonAll": false
+      },
+      "groupThree": {
+        "gPermissonAll": false
+      }
+    }
+  }
+]

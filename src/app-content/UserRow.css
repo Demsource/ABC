@@ -1,0 +1,94 @@
+.user-row-wrapper {
+  position: relative;
+  margin-top: 10px;
+}
+.user-row {
+  border-bottom: 2px solid #d8d8d8;
+  display: flex;
+  justify-content: space-between;
+  height: 46px;
+  margin-left: 10%;
+  padding-bottom: 10px;
+}
+.user-row .user-icon {
+  position: absolute;
+  height: 46px;
+  width: 46px;
+  left: 13px;
+}
+
+.user-row .user-icon img {
+  width: 100%;
+}
+
+.user-row .user-info {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+}
+
+.user-row .user-info .user-name {
+  font-weight: bold;
+}
+
+.user-row .user-role {
+  display: flex;
+  align-items: center;
+  margin-left: 38%;
+}
+
+.user-row .user-role .key-icon {
+  position: absolute;
+  background: #7e7ef1;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  right: 57%;
+  height: 25px;
+  width: 40px;
+}
+.user-row .user-role .key-icon-fade {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  right: 57%;
+  height: 25px;
+  width: 40px;
+}
+.user-row .user-role img {
+  width: 17px;
+}
+
+.user-row .user-role .user-role-name {
+  font-weight: bold;
+}
+
+.user-row .user-status {
+  position: absolute;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  right: 28%;
+}
+.user-row .user-status img {
+  height: 23px;
+}
+
+.user-row .user-actions {
+  display: flex;
+  align-items: center;
+  margin-right: 2%;
+}
+
+.user-row .user-actions img {
+  cursor: pointer;
+  height: 20px;
+}
+.user-row .user-actions .user-setup {
+  margin-right: 25px;
+}
+
+#disabled {
+  opacity: .35;
+}

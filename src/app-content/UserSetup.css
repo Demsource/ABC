@@ -1,0 +1,268 @@
+.user-setup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.user-setup .us-content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 50px 0;
+}
+
+/* SIDE */
+.user-setup .us-content .user-side {
+  text-align: center;
+  width: 200px;
+}
+
+.user-setup .us-content .user-side .user-img {
+  position: relative;
+}
+
+.user-setup .us-content .user-side .user-img .bottom-text {
+  color: #b0acac;
+  margin-top: 10px;
+}
+
+.user-setup .us-content .user-side .user-img img {
+  width: 100%;
+}
+
+.user-setup .us-content .user-side .user-img .admin-badge {
+  position: absolute;
+  background: #7e7ef1;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  top: 60%;
+  right: -5%;
+  height: 45px;
+  width: 77px;
+}
+.user-setup .us-content .user-side .user-img .admin-badge img {
+  width: 24px;
+}
+
+.user-setup .us-content .user-side .name-email {
+  margin: 30px 0;
+}
+
+.user-setup .us-content .user-side .name-email .name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.user-setup .us-content .user-side .name-email .email {
+  margin-top: 20px;
+}
+
+.user-setup .us-content .user-side .invite-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.user-setup .us-content .us-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  color: white;
+  height: 50px;
+  width: 200px;
+}
+.user-setup .us-content .user-side .invite-btn {
+  background-color: #7e7ef1;
+  margin-top: 66px;
+}
+
+/* DETAILS */
+
+.user-setup .us-content .u-header {
+  font-size: 36px;
+}
+
+.user-setup .us-content .user-details .status {
+  margin-top: 55px;
+  position: relative;
+}
+
+.user-setup .us-content .user-details .status .user-status {
+  cursor: pointer;
+  position: absolute;
+  left: -50px;
+  top: -2px;
+}
+
+.user-setup .us-content .user-details .status span {
+  font-weight: bold;
+}
+
+.user-setup .us-content .user-details .form-fields {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+.user-setup .us-content .user-details .form-fields label {
+  color: #33a3dc;
+  margin-bottom: 5px;
+  margin-left: -12px;
+}
+
+.user-setup .us-content .user-details .form-fields input {
+  border: none;
+  background-color: inherit;
+  border-bottom: 2px solid #c6c6c6;
+  margin-bottom: 20px;
+}
+.user-setup .us-content .user-details .form-fields input:focus {
+  outline: none;
+}
+
+.user-setup .us-content .user-details .form-fields .role {
+  border-bottom: 2px solid #c6c6c6;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.user-setup .us-content .user-details .form-fields .role .user-role {
+  margin-right: 10px;
+}
+
+.user-setup .us-content .user-details .form-fields .role .arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.user-setup .us-content .user-details .form-fields .role .arrow-down {
+  border-top: 5px solid black;
+}
+
+.user-setup .us-content .user-details .form-fields .role .roles {
+  position: absolute;
+  top: 100%;
+  left: -4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-setup .us-content .user-details .form-fields .role .roles div {
+  text-align: center;
+  border-bottom: 1px solid #c6c6c6;
+  padding: 10px 5px;
+}
+
+.user-setup .us-content .user-details .form-fields .save-btn {
+  background-color: #44a0d3;
+  margin-top: 140px;
+}
+
+/* PERMISSIONS */
+
+.user-setup .us-content .user-permissions {
+  width: 40%;
+}
+
+.user-setup .us-content .user-permissions .permissions-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.user-setup .us-content .user-permissions .perm-align {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.user-setup .us-content .user-permissions .perm-group {
+  position: relative;
+  border-bottom: 2px solid #c6c6c6;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.user-setup .us-content .user-permissions .perm-group .perm-group-list {
+  padding-left: 15px;
+  margin: 20px 0;
+}
+
+.user-setup .us-content .user-permissions .perm-group .perm-group-list div {
+  margin-bottom: 5px;
+}
+
+.user-setup
+  .us-content
+  .user-permissions
+  .perm-group
+  .perm-group-list
+  .g1-p-text {
+  position: relative;
+}
+.user-setup
+  .us-content
+  .user-permissions
+  .perm-group
+  .perm-group-list
+  .g1-p-text
+  .perm-circle {
+  position: absolute;
+  top: 4px;
+  left: -10px;
+  background-color: red;
+  border-radius: 50%;
+  height: 6px;
+  width: 6px;
+}
+.user-setup
+  .us-content
+  .user-permissions
+  .perm-group
+  .perm-group-list
+  .g1-p-text
+  .pc-red {
+  background-color: #ff0000;
+}
+.user-setup
+  .us-content
+  .user-permissions
+  .perm-group
+  .perm-group-list
+  .g1-p-text
+  .pc-blue {
+  background-color: #44a0d3;
+}
+
+.user-setup .us-content .user-permissions .perm-group .pg-arrow {
+  position: absolute;
+  top: 3px;
+  left: -7%;
+}
+
+.user-setup .us-content .user-permissions .super-admin {
+  font-size: large;
+  margin-top: 55px;
+}
+
+.user-setup .us-content .user-permissions .permission-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.user-setup .disabled {
+  opacity: 0.38;
+}
+
+.user-setup .disappear {
+  visibility: hidden;
+}

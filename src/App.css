@@ -1,0 +1,294 @@
+body {
+  background-color: #f3f3f3;
+}
+.app {
+  position: relative;
+}
+
+/* NEW USER POPUP */
+.popup-wrapper {
+  position: absolute;
+  top: 0%;
+  background-color: #0000008f;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup-wrapper .popup {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: calc(100vw / 2.5);
+}
+
+.popup-wrapper .close-popup {
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+.popup-wrapper .popup .ppp-wrapper {
+  width: 70%;
+}
+.popup .ppp-header {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 50px 0 30px 0;
+}
+
+.popup .form-fields input:focus {
+  outline: none;
+}
+
+.popup .form-fields .inputs {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.popup .field-icon {
+  position: absolute;
+  top: -3px;
+  left: -30px;
+  z-index: 22222;
+}
+
+.popup .form-fields .inputs input {
+  border: none;
+  background-color: inherit;
+  border-bottom: 2px solid #c6c6c6;
+  margin-bottom: 20px;
+  width: 48%;
+}
+
+.popup .form-fields .email-input-wrapper {
+  position: relative;
+}
+
+.popup .form-fields #new-email {
+  width: 99%;
+  border: none;
+  background-color: inherit;
+  border-bottom: 2px solid #c6c6c6;
+  margin-bottom: 30px;
+}
+
+.popup .form-fields .role {
+  border-bottom: 2px solid #c6c6c6;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.popup .form-fields .role .user-role {
+  position: relative;
+  color: #757582;
+  margin-right: 10px;
+}
+
+.popup .form-fields .role .arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.popup .form-fields .role .arrow-down {
+  border-top: 5px solid black;
+}
+
+.popup .form-fields .roles {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.popup .form-fields .roles div {
+  cursor: pointer;
+  border-bottom: 1px solid #c6c6c6;
+  padding: 10px 5px;
+  width: 93%;
+}
+
+.popup .popup-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.popup .send-delete {
+  cursor: pointer;
+  background-color: #c6c6c6;
+  color: #4b4b4b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 140px;
+  border-radius: 20px;
+}
+
+.black {
+  color: black;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+/* NEW USER POPUP */
+
+/* DELETE POPUP */
+.popup-wrapper .popup .delete-content .delete-user {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-wrapper .popup .delete-content .delete-user .user-status {
+  color: #44a0d3;
+  font-weight: bold;
+}
+
+.popup-wrapper .popup .delete-content .popup-action #delete-user-button {
+  background-color: #f79696;
+  color: white;
+}
+/* DELETE POPUP */
+
+/* Reset CSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* END OF Reset CSS */
